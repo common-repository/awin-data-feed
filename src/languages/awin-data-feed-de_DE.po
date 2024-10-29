@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: awin_data_feed\n"
+"POT-Creation-Date: 2016-04-08 00:13+0100\n"
+"PO-Revision-Date: 2016-04-08 00:14+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#. Description of the plugin/theme
+msgid "Sell your affiliate product from affiliate window product data feed"
+msgstr "GSell your affiliate product from affiliate window product data feed"
+
+#: Datafeed/SettingsMenu.php:35 ../src/Datafeed/SettingsMenu.php:35
+msgid "Import your shopwindow data feed to display in widget"
+msgstr "GImport your shopwindow data feed to display in widget"
+
+#: Datafeed/SettingsMenu.php:36 ../src/Datafeed/SettingsMenu.php:36
+#, php-format
+msgid "Maximum file size must be smaller than: %sB"
+msgstr "GMaximum file size must be smaller than: %sB"
+
+#: Datafeed/SettingsMenu.php:37 ../src/Datafeed/SettingsMenu.php:37
+msgid "Update 'upload_max_filesize' directive in php.ini for larger import"
+msgstr "GUpdate 'upload_max_filesize' directive in php.ini for larger import"
+
+#: Datafeed/SettingsMenu.php:44 ../src/Datafeed/SettingsMenu.php:44
+msgid "Import Data Feed"
+msgstr "GImport Data Feed"
+
+#: Datafeed/SettingsMenu.php:55 ../src/Datafeed/SettingsMenu.php:55
+#, php-format
+msgid ""
+"You have <span class=\"counter\">%s</span> products in your data store to "
+"choose from"
+msgstr ""
+"GYou have <span class=\"counter\">%s</span> products in your data store to "
+"choose from"
+
+#: Datafeed/SettingsMenu.php:66 ../src/Datafeed/SettingsMenu.php:66
+msgid "Filter products*"
+msgstr "GFilter products"
+
+#: Datafeed/SettingsMenu.php:71 ../src/Datafeed/SettingsMenu.php:71
+msgid "(DEFAULT) displays products in a random order."
+msgstr "G(DEFAULT) displays products in a random order."
+
+#: Datafeed/SettingsMenu.php:75 ../src/Datafeed/SettingsMenu.php:75
+msgid "By Delivery Type"
+msgstr "GBy Delivery Type"
+
+#: Datafeed/SettingsMenu.php:79 ../src/Datafeed/SettingsMenu.php:79
+msgid "Free Delivery"
+msgstr "GFree Delivery"
+
+#: Datafeed/SettingsMenu.php:87 ../src/Datafeed/SettingsMenu.php:87
+msgid "By Category"
+msgstr "GBy Category"
+
+#: Datafeed/SettingsMenu.php:107 ../src/Datafeed/SettingsMenu.php:107
+msgid "By price"
+msgstr "GBy price"
+
+#: Datafeed/SettingsMenu.php:110 ../src/Datafeed/SettingsMenu.php:110
+msgid "Less than 10"
+msgstr "GLess than 10"
+
+#: Datafeed/SettingsMenu.php:117 ../src/Datafeed/SettingsMenu.php:117
+msgid "Less than 50"
+msgstr "GLess than 50"
+
+#: Datafeed/SettingsMenu.php:124 ../src/Datafeed/SettingsMenu.php:124
+msgid "Less than 100"
+msgstr "GLess than 100"
+
+#: Datafeed/SettingsMenu.php:129 ../src/Datafeed/SettingsMenu.php:129
+msgid "By price range"
+msgstr "GBy price range"
+
+#: Datafeed/SettingsMenu.php:133 ../src/Datafeed/SettingsMenu.php:133
+msgid "min"
+msgstr "Gmin"
+
+#: Datafeed/SettingsMenu.php:134 ../src/Datafeed/SettingsMenu.php:134
+msgid "max"
+msgstr "Gmax"
+
+#: Datafeed/SettingsMenu.php:136 ../src/Datafeed/SettingsMenu.php:136
+msgid "Product without valid image will not be displayed"
+msgstr "GProduct without valid image will not be displayed"
+
+#: Datafeed/SettingsMenu.php:139 ../src/Datafeed/SettingsMenu.php:139
+msgid "Save changes"
+msgstr "GSave changes"
+
+#: Datafeed/SettingsMenu.php:140 ../src/Datafeed/SettingsMenu.php:140
+msgid "Reset filters"
+msgstr "GReset filters"
+
+#: Datafeed/SettingsMenu.php:148 ../src/Datafeed/SettingsMenu.php:148
+msgid "Display Analytics"
+msgstr "GDisplay Analytics"
+
+#: Datafeed/SettingsMenu.php:158 ../src/Datafeed/SettingsMenu.php:158
+msgid "Popular Products"
+msgstr "GPopular Products"
+
+#: Datafeed/SettingsMenu.php:159 Datafeed/SettingsMenu.php:179
+#: ../src/Datafeed/SettingsMenu.php:159 ../src/Datafeed/SettingsMenu.php:179
+msgid "Product"
+msgstr "GProduct"
+
+#: Datafeed/SettingsMenu.php:159 ../src/Datafeed/SettingsMenu.php:159
+msgid "Click"
+msgstr "GClick"
+
+#: Datafeed/SettingsMenu.php:176 ../src/Datafeed/SettingsMenu.php:176
+msgid "User daily click"
+msgstr "GUser daily click"
+
+#: Datafeed/SettingsMenu.php:177 ../src/Datafeed/SettingsMenu.php:177
+msgid "Click Time"
+msgstr "GClick Time"
+
+#: Datafeed/SettingsMenu.php:178 ../src/Datafeed/SettingsMenu.php:178
+msgid "IP"
+msgstr "GIP"
+
+#: Datafeed/SettingsMenu.php:202 ../src/Datafeed/SettingsMenu.php:202
+msgid "Please refer to"
+msgstr "GPlease refer to"
+
+#: Datafeed/SettingsMenu.php:207 ../src/Datafeed/SettingsMenu.php:207
+msgid "Shortcodes"
+msgstr "GShortcodes"
+
+#: Datafeed/SettingsMenu.php:209 ../src/Datafeed/SettingsMenu.php:209
+msgid "Default shortcode"
+msgstr "GDefault shortcode"
+
+#: Datafeed/SettingsMenu.php:211 ../src/Datafeed/SettingsMenu.php:211
+msgid "Shortcode Options"
+msgstr "GShortcode Options"
+
+#: Datafeed/SettingsMenu.php:213 ../src/Datafeed/SettingsMenu.php:213
+msgid "any title in quote"
+msgstr "Gany title in quote"
+
+#: Datafeed/SettingsMenu.php:214 ../src/Datafeed/SettingsMenu.php:214
+msgid "any number"
+msgstr "Gany number"
+
+#: Datafeed/SettingsMenu.php:215 ../src/Datafeed/SettingsMenu.php:215
+msgid "comma separated word in quote"
+msgstr "Gcomma separated word in quote"
+
+#: Datafeed/SettingsMenu.php:217 ../src/Datafeed/SettingsMenu.php:217
+msgid "Shortcode Examples"
+msgstr "GShortcode Examples"
+
+#: Datafeed/SettingsMenu.php:219 ../src/Datafeed/SettingsMenu.php:219
+msgid "hello world"
+msgstr "Ghello world"
+
+#: Datafeed/SettingsMenu.php:220 ../src/Datafeed/SettingsMenu.php:220
+msgid "Iron Man vs Captain America"
+msgstr "GIron Man vs Captain America"
+
+#: Datafeed/SettingsMenu.php:221 ../src/Datafeed/SettingsMenu.php:221
+msgid "Iron Man, Captain America"
+msgstr "GIron Man, Captain America"
+
+#: Datafeed/Widget.php:11 ../src/Datafeed/Widget.php:11
+msgid "Sell your affiliate product from Affiliate Window product data feed"
+msgstr "G Sell your affiliate product from Affiliate Window product data feed"
+
+#: Datafeed/Widget.php:38 ../src/Datafeed/Widget.php:38
+msgid "Title"
+msgstr "GTitle"
+
+#: Datafeed/Widget.php:47 ../src/Datafeed/Widget.php:47
+msgid "Keywords"
+msgstr "GKeywords"
+
+#: Datafeed/Widget.php:56 ../src/Datafeed/Widget.php:56
+msgid "Number of product to display"
+msgstr "GNumber of product to display"
+
+#: Datafeed/Widget.php:65 ../src/Datafeed/Widget.php:65
+msgid "Display product horizontally"
+msgstr "GDisplay product horizontally"
+
+#: Datafeed/AbstractSettings.php:102 ../src/Datafeed/AbstractSettings.php:102
+msgid "Import  your affiliate window data feed to display in widget!"
+msgstr "GImport your shopwindow data feed to display in widget"
+
+#: ../AWDatafeed.php:33 ../AWDatafeed.php:34
+msgid "Datafeed"
+msgstr "Datafeed G"
+
+#: ../AWDatafeed.php:35
+msgid "Settings"
+msgstr "SettingsG"
+
+#: ../AWDatafeed.php:36
+msgid "Datafeed Guide"
+msgstr "Datafeed Guide Ger"

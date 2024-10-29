@@ -1,0 +1,246 @@
+.error {
+    color: red;
+}
+
+.info {
+    color: #336699;
+    font-weight: bold;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    height: 50px;
+    border:3px solid #8AC007;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.green {
+    color: green;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+
+/* VERTICAL WIDGET ELEMENTS*/
+table.vertical td {
+    border: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+table.vertical .image {
+    padding:15px;
+    width: 125px;
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+table.vertical .productName {
+    color: #494949;
+    vertical-align: top;
+    padding: 15px;
+    font-size: 1em;
+    background-color: #f5f5f5;
+    border-bottom-width: 0;
+    text-align: left;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+table.vertical td.nextTd{
+    text-align: right;
+}
+table.vertical img, table.horizontal img {
+    width: 125px;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+div .nextVertical button{
+    width: 115px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+}
+div .nextVertical button:hover{
+    color:darkmagenta;
+}
+
+/* HORIZONTAL WIDGET ELEMENTS */
+
+table.horizontal{
+    border: 1px solid rgba(51, 51, 51, 0.1);
+}
+table.horizontal td{
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    background-color: #fff;
+}
+table.horizontal img {
+    width: 125px;
+}
+table.horizontal .title, table.vertical .title {
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #494949;
+}
+table.horizontal .image {
+    padding:1px;
+    width: 200px;
+    height: 150px;
+    vertical-align: middle;
+}
+table.horizontal .name {
+    color: #494949;
+    vertical-align: top;
+    padding: 15px;
+    font-size: 1em;
+    background-color: #f5f5f5;
+    border-bottom-width: 0;
+    text-align: left;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+table.horizontal .name a:link{
+    color: #000;
+}
+table.horizontal .price, table.vertical .price {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3em;
+    color:#ff7e00;
+    font-family: inherit;
+    vertical-align: middle;
+    border-top-width: 0;
+    background-color: #f5f5f5;
+    text-align: right;
+    padding: 0 15px 15px;
+}
+
+div .nextHorizontal{
+    position: relative;
+    /*top: -220px;*/
+    float: right;
+}
+div .nextHorizontal button{
+    width: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+div .nextHorizontal button:hover{
+    color: darkmagenta;
+}
+
+div .nextHorizontalSc{
+    position: relative;
+    /*top: -220px;*/
+    float: right;
+}
+div .nextHorizontalSc button{
+    width: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 20px;
+}
+div .nextHorizontalSc button:hover{
+    color: darkmagenta;
+}
+
+section {
+    margin: auto;
+    display: block;
+    overflow: auto;
+    margin-top: 10px;
+}
+div .options .default{
+    height: 30px;
+}
+
+.productCount{
+    border: 1px solid #d6d6d6;
+    background-color: #e5e5e5;
+    padding: 10px;
+    width: 95%;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.counter {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+table.analytics th, table.analytics td {
+    border-bottom: 1px solid #d6d6d6;
+}
+table.analytics td {
+    text-align: center;
+}
+table.analytics td.image {
+    background-color: #fff;
+}
+
+table.aw-filter {
+    border: 1px solid #d6d6d6;
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    border-collapse: collapse;
+}
+table.aw-filter img {
+    width: 50px;
+}
+table.aw-filter td.buttons {
+    border: none;
+    text-align: right;
+    padding: 15px 10px;
+}
+table.aw-filter th{
+    background-color: #e5e5e5;
+}
+
+table.aw-filter th, table.aw-filter td {
+    padding: 5px 10px;
+}
+
+table.aw-filter th.filterType{
+    text-align: left;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+section.submitButton{
+    float: left;
+    padding: 20px;
+}
+
+.reportButton{
+    padding-left: 40px;
+
+}
+
+.hover img:hover {
+    opacity: .8;
+
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -o-transition: all .5s ease; /* IE 9 */
+    -ms-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+}
+
+.range {
+    width: 70px;
+}
+
+.widgetContentSC{
+    background-color: inherit;
+}

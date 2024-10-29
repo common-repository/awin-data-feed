@@ -1,0 +1,50 @@
+<div xmlns="http://www.w3.org/1999/html">
+    <span>
+        <table border="0">
+            <tr>
+                <td>
+                    <?php _e('Title', 'awin-data-feed'); ?>
+                </td>
+                <td>
+                    <input name="<?php echo esc_attr($this->get_field_name( 'title' )); ?>" type="text"
+                        value="<?php echo esc_attr($instance[" title"]) ?>"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <?php _e('Keywords', 'awin-data-feed'); ?>
+                </td>
+                <td>
+                    <input name="<?php echo esc_attr($this->get_field_name( 'keywords' )); ?>" type="text"
+                        placeholder="comma separated" value="<?php echo esc_attr($instance[" keywords"]) ?>"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <?php _e('Number of product to display', 'awin-data-feed'); ?>
+                </td>
+                <td>
+                    <input name="<?php echo esc_attr($this->get_field_name( 'displayCount' )); ?>" type="number" min=1
+                        step=1 value="<?php echo esc_attr($instance[" displayCount"]) ?>"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <?php _e('Display product horizontally', 'awin-data-feed'); ?>
+                </td>
+                <td>
+                    <input type="checkbox" name="<?php echo esc_attr($this->get_field_name( 'layout' )); ?>"
+                        value="horizontal" <?php if($instance["layout"]==='horizontal' ){ echo 'checked="checked"' ; }
+                        ?>
+                    />
+                </td>
+            </tr>
+        </table>
+    </span>
+</div>
+
+<div class='mfc-text'>
+</div>
